@@ -69,7 +69,7 @@ for k in range(0,nchains_ofinterest):
     
     for framestride in range(0,nsteps):
         for npair_loop in range(0,npair):
-            #Below, 0 added to framestride indicates only 0th frame is taken as reference, no moving avg. is done for a specific reason
+            #Below, 0 added to framestride indicates only 0th frame is taken as reference
             pair_count_array[k,framestride,:,:] += (np.where(count_array[npair_loop,:,:,0] > 0, count_array[npair_loop,:,:,0], -1) == count_array[npair_loop,:,:,0+framestride]).astype(int)
         
         if (npair > 0):   
