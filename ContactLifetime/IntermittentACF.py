@@ -14,7 +14,7 @@ stop = int(sys.argv[3])
 interval_time = int(sys.argv[4])
 seq = open(str(sys.argv[5]),'r').read().strip()
 fout = str(sys.argv[6])
-array = np.load("{}_CLifetimeACFArray.txt.npy".format(fout))
+array = np.load("{}_CLifetimeACFArray.npy".format(fout))
 
 nsteps = int((stop-start)/stride)
 
