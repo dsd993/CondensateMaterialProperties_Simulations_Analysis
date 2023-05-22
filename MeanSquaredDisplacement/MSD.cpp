@@ -1,4 +1,4 @@
-//Written by Dinesh S. Devarajan, dated 10/12/2021
+//Written by Dinesh S. Devarajan, dated 07/15/2022
 
 //Code to calculate the averaged mean squared displacement (MSD) of the individual beads in chains and the COM MSD of the chains
 
