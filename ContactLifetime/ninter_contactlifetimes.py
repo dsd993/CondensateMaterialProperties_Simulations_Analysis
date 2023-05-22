@@ -79,45 +79,4 @@ for k in range(0,nchains_ofinterest):
 
 chain_count_array[:,:,:] = chain_count_array[:,:,:]/nchains_ofinterest #This array has for each residue the non-normalized (raw) autocorrelation function values after averaging over no. of pairs and no. of chains
 
-np.save('{}_CLifetimeACFArray.txt'.format(fout), chain_count_array)
-
-#Preparing a matrix to average over only E-K residue pair autocorrelation values
-#temp_seq_array_opppair = np.zeros((len(seq),len(seq)))
-#for idx, iseq in enumerate(seq):
-    #for jdx, jseq in enumerate(seq):
-        #if ((iseq == "E" and jseq == "K") or (iseq == "K" and jseq == "E")):
-            #temp_seq_array_opppair[idx,jdx]=1.0
-#npair_opppair = np.sum(temp_seq_array_opppair)
-#print("npair_opppair:", npair_opppair)
-
-#Preparing a matrix to average over only E-E residue pair/K-K residue pair autocorrelation values
-#temp_seq_array_samepair = np.zeros((len(seq),len(seq)))
-#for idx, iseq in enumerate(seq):
-    #for jdx, jseq in enumerate(seq):
-        #if ((iseq == "E" and jseq == "E") or (iseq == "K" and jseq == "K")):
-            #temp_seq_array_samepair[idx,jdx]=1.0
-#npair_samepair = np.sum(temp_seq_array_samepair)
-#print("npair_samepair:", npair_samepair)
-
-#acf_opppair = np.zeros(nsteps)
-#for i in range(0,nsteps):
-    #acf_opppair[i] = np.sum(chain_count_array[i,:,:]*temp_seq_array_opppair[:,:])/npair_opppair
-
-#acf_samepair = np.zeros(nsteps)
-#for i in range(0,nsteps):
-    #acf_samepair[i] = np.sum(chain_count_array[i,:,:]*temp_seq_array_samepair[:,:])/npair_samepair
-
-#acf_combinedall = np.zeros(nsteps)
-#for i in range(0,nsteps):
-    #acf_combinedall[i] = np.sum(chain_count_array[i,:,:])/(nres*nres)
-
-#normacf_opppair = acf_opppair/acf_opppair[0]
-#normacf_samepair = acf_samepair/acf_samepair[0]
-#normacf_combinedall = acf_combinedall/acf_combinedall[0]
-
-#time_ps = np.arange(0,nsteps)*interval_time*1e-2 #1e-2 considering time units used is 10 fs
-#time_ns = np.arange(0,nsteps)*interval_time*1e-5 #1e-5 considering time units used is 10 fs
-
-#final_data = np.transpose(np.vstack((time_ps,time_ns,acf_opppair,normacf_opppair,acf_samepair,normacf_samepair,acf_combinedall,normacf_combinedall)))
-
-#np.savetxt('{}_ContactLifetimeACF.txt'.format(fout), final_data, delimiter=' ', header = "Time_ps Time_ns ACF_OppPair NormACF_OppPair ACF_SamePair NormACF_SamePair ACF_AllCombined NormACF_AllCombined")
+np.save('{}_CLifetimeACFArray'.format(fout), chain_count_array)
