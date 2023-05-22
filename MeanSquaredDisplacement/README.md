@@ -19,6 +19,10 @@ Note that the "MSDValues.txt" will have 5 columns: The first column is the times
 
 * The parameter 'NumberofInnerMonomers' in the parameter text file gives the user the flexibility to choose the number of inner monomers in a polymer chain.  For example, if the number of monomers in a polymer chain is 50, 10 inner monomers will be selected as 5 each on either side of the central monomer in each polymer chain when specified.  For COM MSD, all the monomers in a polymer chain will be selected.  
 
+### Code usage
+
+Use the code on the dump files given inside the folder dumpTraj for testing.  For convenience, the parameter file is already filled for direct usage. 
+
 ### Compile and run the C++ code as below
 
 * If using a GCC compiler:  
@@ -31,6 +35,4 @@ Note that the "MSDValues.txt" will have 5 columns: The first column is the times
     
 ### Other details
 
-This code does moving average over all the frames and also averages over all the atoms of interest selected based on the atom types given by the user in the parameter file
-
-
+This code does moving average over all the frames and also averages over all the atoms of interest selected based on the atom types given by the user in the parameter file.
