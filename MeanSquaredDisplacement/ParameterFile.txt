@@ -1,4 +1,4 @@
-TrajFileName: dumpTraj_long/dump.traj
+TrajFileName: dumpTraj/dump.traj
 NumberofChains: 500
 BeadsPerChain: 50
 NumberofInnerMonomers: 10
