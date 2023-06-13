@@ -14,7 +14,7 @@ This code comes with 4 files: (1) two .py files, (2) one .dat sequence file, (3)
 
 Use the code on the GSD file (only a small file consisting of 15 trajectory stamps at specific timesteps are provided) given inside the folder GSDFile for testing.  These trajectories were generated using HOOMD-blue (version 2.9.3).
 
-### Compile and run the python code as below
+### Run the python code as below
 
 * python ninter_contactlifetimes.py GSDFile/ekv3_dumps.gsd GSDFile/ekv3_dumps.gsd 0 1 15 500 500 500 EKV3.dat EKV3
 
