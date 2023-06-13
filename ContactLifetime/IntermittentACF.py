@@ -1,4 +1,4 @@
-#Eg usage: python IntermittentACF.py 0 1 1000 10 ../../EKV_2.dat EKV_2
+#Eg usage: python IntermittentACF.py 0 1 15 500 EKV3.dat EKV3
 
 import numpy as np
 import matplotlib.pyplot as plt
