@@ -21,7 +21,7 @@ Note that the "MSDValues.txt" will have 5 columns: The first column is the times
 
 ### Code usage
 
-Use the code on the dump files (only a sample set of 100 trajectory files at specific timesteps are provided) given inside the folder dumpTraj for testing.  These trajectories were generated using LAMMPS (29 October2020) version.  For convenience, the parameter file is already filled for direct usage. 
+Use the code on the dump files (only a sample set of 100 trajectory files at specific timesteps are provided) given inside the folder dumpTraj for testing.  These trajectories were generated using LAMMPS (29 October2020 version).  For convenience, the parameter file is already filled for direct usage. 
 
 ### Compile and run the C++ code as below
 
