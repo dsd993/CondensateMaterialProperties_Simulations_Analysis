@@ -1,4 +1,4 @@
-#Eg usage: python ninter_contactlifetimes.py ../../veryshort_dumps.gsd ../../veryshort_dumps.gsd 0 1 1000 10 500 500 ../../EKV_2.dat EKV_2
+#Eg usage: python ninter_contactlifetimes.py GSDFile/ekv3_dumps.gsd GSDFile/ekv3_dumps.gsd 0 1 15 500 500 500 EKV_3.dat EKV_3
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +15,7 @@ stride = int(sys.argv[4])
 stop = int(sys.argv[5])
 interval_time = int(sys.argv[6])
 nchains = int(sys.argv[7])
-nchains_ofinterest = int(sys.argv[8]) #No. of chains as reference I will use to compute rather than all chains in the system
+nchains_ofinterest = int(sys.argv[8]) #No. of chains as reference I will use to compute rather than all chains in the system ~ typically the total number of chains in the system
 seq = open(str(sys.argv[9]),'r').read().strip()
 fout = str(sys.argv[10])
 
