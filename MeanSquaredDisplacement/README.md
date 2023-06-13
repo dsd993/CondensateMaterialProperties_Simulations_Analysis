@@ -25,8 +25,8 @@ Use the code on the dump files (only a sample set of 100 trajectory files at spe
 
 ### Compile and run the C++ code as below
 
-* If using a GCC compiler:  
-    gcc -lstdc++ -lm  MSD.cpp   
+* If using a GCC/g++ compiler:  
+    gcc -lstdc++ -lm  MSD.cpp (or) g++ MSD.cpp  
     ./a.out
     
 * If using a ICC compiler:  
