@@ -1,6 +1,6 @@
 ### This python code calculates the following:
 
-1) Intermittent contact lifetimes between the oppositely charged residues, like charged residues, and all the charged residues within an E-K sequence of a given nSCD in a file named "{SeqName}_ContactLifetimeACF.txt".
+1) Intermittent contact lifetimes between the oppositely charged residues, like charged residues, and all charged residues within an E-K sequence of a given nSCD in a file named "{SeqName}_ContactLifetimeACF.txt".
 
 Note that the "{SeqName}_ContactLifetimeACF.txt" will have 5 columns: The first column is the time in ps, the second column is time in ns, the third column is the raw ACF between oppositely charged residues, the fourth column is the normalized ACF (goes from 0 to 1) between oppositely charged residues, the fifth column is the raw ACF between like charged residues, the sixth column is the normalized ACF (goes from 0 to 1) between like charged residues, the seventh column is the raw ACF between all charged residues, and the eigth column is the normalized ACF (goes from 0 to 1) between all charged residues.
 
