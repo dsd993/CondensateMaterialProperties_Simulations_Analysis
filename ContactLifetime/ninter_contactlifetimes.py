@@ -1,4 +1,4 @@
-#Eg usage: python ninter_contactlifetimes.py GSDFile/ekv3_dumps.gsd GSDFile/ekv3_dumps.gsd 0 1 15 500 500 500 EKV_3.dat EKV_3
+#Eg usage: python ninter_contactlifetimes.py GSDFile/ekv3_dumps.gsd GSDFile/ekv3_dumps.gsd 0 1 15 500 500 500 EKV3.dat EKV3
 
 import numpy as np
 import matplotlib.pyplot as plt
