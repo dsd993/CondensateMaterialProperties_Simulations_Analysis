@@ -2,7 +2,7 @@ TrajFileName: dumpTraj/dump.traj
 NumberofChains: 500
 BeadsPerChain: 50
 NumberofInnerMonomers: 10
-Start: 40000000
+Start: 40050000
 Stop: 45000000
 Interval: 50000
 NoofAtomTypes: 2
