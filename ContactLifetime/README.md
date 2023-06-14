@@ -12,7 +12,7 @@ This code comes with 4 files: (1) two .py files, (2) one .dat sequence file, (3)
 
 ### Code usage
 
-Use the code on the GSD file (only a small file consisting of 15 trajectory stamps at specific timesteps are provided) given inside the folder GSDFile for testing.  These trajectories were generated using HOOMD-blue (version 2.9.3).
+Use the code on the GSD file (only a small file consisting of 15 trajectory stamps at specific timesteps are provided) given inside the folder GSDFile for testing.  These trajectories were generated using HOOMD-blue (version 2.9.3).  See "EKV3_CLifetimeACFArray.npy" and "EKV3_ContactLifetimeACF.txt" inside the "ExpectedOutput" folder for the output files that will be printed upon successful completion of the code based on the given instructions here.  These output files were generated based on defining the number of chains of interest as "3" (see the below section for details). 
 
 ### Run the python code as below
 
