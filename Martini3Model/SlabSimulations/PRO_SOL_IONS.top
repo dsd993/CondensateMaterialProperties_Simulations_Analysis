@@ -1,0 +1,16 @@
+#include "./martini_v300/martini_v3.0.0.itp"
+#include "PRO.itp"
+#include "./martini_v300/martini_v3.0.0_ions_v1.itp"
+#include "./martini_v300/martini_v3.0.0_solvents_v1.itp"
+
+
+[ system ]
+; name
+Insanely solvated protein.
+
+[ molecules ]
+; name  number
+Protein       80
+W           50064
+NA               407
+CL               407

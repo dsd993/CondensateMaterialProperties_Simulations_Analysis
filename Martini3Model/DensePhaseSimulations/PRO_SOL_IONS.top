@@ -1,0 +1,18 @@
+#include "./../1.densephase_prep/martini_v300/martini_v3.0.0.itp"
+#include "PRO.itp"
+#include "./../1.densephase_prep/martini_v300/martini_v3.0.0_ions_v1.itp"
+#include "./../1.densephase_prep/martini_v300/martini_v3.0.0_solvents_v1.itp"
+
+
+[ system ]
+; name
+Insanely solvated protein.
+
+[ molecules ]
+; name  number
+Protein       80
+W           9117
+NA               104
+CL               104
+
+
